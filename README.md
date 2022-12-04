@@ -43,7 +43,7 @@ This is a Challenge about Creating a 404 not found page following the design. Th
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- You can see my demo is [here](https://stupendous-lily-7d898d.netlify.app)
+- You can see my demo [here](https://stupendous-lily-7d898d.netlify.app)
 - Before this challenge i was totaly beginer and not knowing nothing in code
 - For this challenge i've use my knowledge in Html and Css from devchallenge.io and FreeCodeCamp.or
 
