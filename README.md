@@ -39,7 +39,7 @@ This is a Challenge about Creating a 404 not found page following the design. Th
 
 ## Overview
 
-![screenshot](https://zupimages.net/viewer.php?id=22/48/dajy.png)
+![screenshot](https://www.zupimages.net/up/22/48/dajy.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
