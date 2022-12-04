@@ -17,137 +17,132 @@ font-family: 'Space Mono', monospace;
 body {
   max-width: 1440px;
   margin: 0 auto;
+
 }
 
-header {
-  font-family: 'Inconsolata', monospace;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-  color: #333333;
-  padding: 20px;
-}
-
-.body-container {
-  display: flex;
-  margin-top: 50px;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.body-container {
+.container {
   width: 80%;
   margin: 0 auto;
-  top: 265px;
 
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Outfit', monospace;
+  text-transform: uppercase;
+  padding-top: 4rem;
+  margin-left: -3rem;
+  font-weight: 700;
+  color: #333333;
+}
+
+.body-container {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-basis: auto;
+  flex-wrap: wrap;
+
+}
+
+.left {
+  flex-basis: auto;
+  flex: 1;
 }
 
 .left img {
-  width: 539px;
+  margin-bottom: 4rem;
+  width: 539;
   height: 447px;
+  flex: 1;
+
 }
 
+.body-container {
+  flex-basis: auto;
+  flex: 1;
+}
 
-
-h1 {
-  font-family: 'Space Mono', monospace;
-  color: #333;
+.body-container h1 {
+  line-height: 5rem;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 95px;
-  letter-spacing: -0.035em;
+  font-family: 'Space Mono', monospace;
+  font-size: 3.5rem;
+  color: #333333;
+
+
 }
 
-.right p {
-  margin-top: 30px;
+.body-container p {
+  margin-top: 1.875rem;
   font-family: 'Space Mono', monospace;
-  font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: -0.035em;
+  font-size: 1.25rem;
+  width: 60%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #4F4F4F;
+
+
 }
 
-.right button {
+button {
   all: unset;
-  color: #fff;
-  border: #333 3px solid;
-  background: #333;
-  padding: 23px 43px;
-  font-size: 14px;
-  margin-top: 30px;
+  margin-top: 1.875rem;
+  background-color: #333333;
   font-family: 'Space Mono', monospace;
+  color: #fff;
+  font-size: 0.875rem;
   text-transform: uppercase;
   font-weight: 700;
+  padding: 1.25rem 3.125rem;
   cursor: pointer;
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 6.25rem;
   text-align: center;
-  padding: 20px;
+  font-size: .75rem;
+  padding: 1.25rem;
+  font-family: 'Space Mono', monospace;
+  color: #BDBDBD;
 }
 
-footer p {
-  color: #333;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .body-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
 
-  .left img,
-  .right {
+  h2 {
+    padding: 1rem .5rem;
+    margin: .5rem;
+    margin-left: -1rem;
+  }
+
+  .left img {
+    margin-left: -1rem;
+    width: 20.5rem;
+    height: 20rem;
+
+
+  }
+
+  .body-container h1 {
+    line-height: 3rem;
+    margin-top: 0.5rem;
+    font-size: 2.25rem;
+    letter-spacing: .03px;
+
+  }
+
+  .body-container p {
+    font-size: 1rem;
+    padding-bottom: 2rem;
     width: 100%;
   }
-
-  footer {
-    padding-top: 1rem;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 480px){
-    .body-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-    h2{
-        padding: 1rem .5rem;
-        margin: .5rem;
-        margin-left: -1rem;
-    }
-
-    .left img{
-        margin-left: -1rem;
-        width: 20.5rem;
-        height:20rem;
-
-
-    }
-
-    .body-container h1{
-        line-height: 3rem;
-        margin-top: 0.5rem;
-        font-size: 2.25rem;
-        letter-spacing: .03px;
-
-    }
-
-    .body-container p{
-        font-size: 1rem;
-        padding-bottom: 2rem;
-        width: 100%;
-    }
-  
-    footer {
-      text-align: center;
-    }
 }
